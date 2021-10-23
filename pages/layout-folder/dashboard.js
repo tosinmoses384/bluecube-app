@@ -175,7 +175,7 @@ const onSearchSubmit = async (term) => {
           //width={["100%", "100%", "100%", "90%"]}
           margin="0 auto"
           className="box-select"
-          border="1px dashed red"
+          //border="1px dashed red"
         >
           <Box display="flex">
             <CustomSelect
@@ -253,7 +253,7 @@ const onSearchSubmit = async (term) => {
         </Box>
 
         <Box
-          border="1px dashed red"
+          //border="1px dashed red"
           className="img-select"
           display="flex"
           justifyContent="center"

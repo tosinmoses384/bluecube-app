@@ -1,0 +1,58 @@
+/* ensure all pages have Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './home.scss';
+@import './layout.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,600;1,500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  max-height: 3px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #25374c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #25374c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* For Antd Select input */
+.ant-select-dropdown {
+  position: fixed !important;
+}
+
+.ant-select-selection-search {
+  display: flex;
+  input {
+    align-self: center;
+  }
+}
+
+.ant-select-selector {
+  border: 1px solid #d2d7db !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border: 1px solid #357edd !important;
+}
